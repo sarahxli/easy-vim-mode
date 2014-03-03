@@ -3,7 +3,7 @@
 A package created only for the ease of using vim navigation, visual mode and
 quick and convenient pattern search.
 
-## VIM MODE ##
+## Vim Mode ##
 
 Provides:
 - [moving around](http://www.fprintf.net/vimCheatSheet.html#motion) (motion commands)
@@ -14,7 +14,7 @@ Provides:
 
 In any following mode, press `esc` key will return vim mode
 
-## EDIT MODE ##
+## Edit Mode ##
 
 Toggle vim editing mode which actually is temporarily hide easy-vim-mode control
 
@@ -31,7 +31,7 @@ Of course, in vim mode press the following keys toggle editing too with extra ac
 - o  Begin a new line below the cursor and insert text, repeat [count] times.
 - O  Begin a new line above the cursor and insert text, repeat [count] times.
 
-## SEARCH MODE ##
+## Search Mode ##
 
 It's triggered also in a none-vim-mode-mode. So that you don't need to quit
 to one level up then type `/`. And it will return back to previous active mode.
@@ -46,7 +46,7 @@ or down by +/- integers. If pattern is empty, equals start from line 0, thus
 create a shortcut to go-to-line, and thus also, in this case a line number can
 only be positive.
 
-## VISUAL MODE ##
+## Visual Mode ##
 
 It's triggered also in a none-vim-mode-mode. So that you don't need to quit
 to one level up then type `v`. And it will return back to previous active mode.
@@ -69,6 +69,6 @@ commands on the text:
 - =  filter through 'equalprg' option command
 - gq  format lines to 'textwidth' length
 
-## OTHERS ##
+## Extra ##
 
 No need for `:q` stuff. Save and other stuff still working.
