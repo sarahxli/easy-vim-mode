@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable easy-vim-mode': 'easy-vim-mode:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'easy-vim-mode'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'easy-vim-mode:toggle' }
+      ]
+    ]
+  }
+]
